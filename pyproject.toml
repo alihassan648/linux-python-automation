@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log-analyzer"
+version = "0.1.0"
+description = "CLI tool to analyze Linux log files for errors and warnings"
+authors = [{ name = "Sohail Ali" }]
+dependencies = []
+
+[tool.setuptools]
+packages = ["log_analyzer"]   # 👈 THIS LINE FIXES EVERYTHING
+
+[project.scripts]
+log-analyzer = "log_analyzer.log_analyzer:main"
