@@ -1,0 +1,13 @@
+# macOS
+.DS_Store
+
+# Logs & reports
+*.log
+report.txt
+
+# Test files
+test*.log
+
+# Python cache
+__pycache__/
+
