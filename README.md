@@ -1,5 +1,4 @@
-# Linux Python Automation
-Practical Python scripts for Linux system administration.
+
 # Linux Log Analyzer CLI
 
 ## 🚨 Problem Statement
